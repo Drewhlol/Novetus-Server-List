@@ -34,22 +34,15 @@ body
 	text-decoration: underline;
 }
 
-#Banner
-{
-	background-color: #2370c1;
-	border-left: solid 2px #1d4d7b;
-	border-right: solid 2px #164a7b;
-	border-top: solid 2px #17517b;
-	height: 72px;
-	text-align: center;
-}
-
 #Banner #Logo
 {
+	border-left: solid 2px #1d4d7b;
+	border-right: solid 2px #164a7b;
+	border-bottom: solid 2px #17517b;
 	float: center;
 	margin: 0;
 	text-align: center;
-	width: 293px;
+	width: 896px;
 }
 
 #Header .Navigation
@@ -63,6 +56,11 @@ body
 	font-weight: normal;
 	line-height: 2em;
 	text-decoration: none;
+}
+
+#LandingImg
+{
+	border: solid 2px #717171;
 }
 
 #Body
@@ -106,12 +104,14 @@ input[type="submit"]
 {
 	font-size: x-large;
 	margin: 0px 0 5px 0;
+	text-align: center;
 }
 
 #SplashContainer h3
 {
 	letter-spacing: normal;
 	margin: 0px 0 5px 0;
+	text-align: center;
 }
 
 #SplashContainer #MainPanel
@@ -122,7 +122,7 @@ input[type="submit"]
 	margin: 0 0 10px 0;
 	padding: 10px;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	width: 877px;
 }
 
@@ -134,7 +134,7 @@ input[type="submit"]
 	margin: 0 0 10px 0;
 	padding: 10px;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	width: 856px;
 }
 
